@@ -88,6 +88,7 @@ body{
     width: 99%;
     height: 2px;
     position: relative;
+    transform-origin: center;
     z-index: 2;
 }
 .min{
@@ -96,6 +97,7 @@ body{
     height: 2px;
     position: absolute;
     transform:rotate(150deg);
+    transform-origin: center;
     z-index: 2;
 }
 .hrs{
@@ -104,6 +106,7 @@ body{
     height: 2px;
     position: absolute;
     transform: rotate(90deg);
+    transform-origin: center;
     z-index: 2;
 }
 .in{
