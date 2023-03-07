@@ -37,13 +37,13 @@ body{
     height: 1%;
     width: 100%;
     position: absolute;
-    background-color: rgba(255, 0, 0, 0.397);
+    background-color: rgba(55, 0, 255, 0.397);
 }
 .twl_sx{
     height: 100%;
     width: 1%;
     position: absolute;
-    background-color: rgb(255, 0, 0, 0.397);
+    background-color: rgb(55, 0, 255, 0.397);
 }
 .on_sv{
     height: 100%;
