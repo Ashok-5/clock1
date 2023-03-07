@@ -5,5 +5,4 @@ function rotate(){
     const date = new Date();
     const secs = date.getSeconds();
     const secdeg = ((secs / 60) * 360) + 90;
-    secNdl.setAttribute("style","transform:rotate((secdeg)deg);")
 }
