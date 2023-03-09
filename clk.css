@@ -19,7 +19,7 @@ body{
     position: absolute;
     left: 50%;
     top:50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) rotate(180deg);
 }
 .cnsel{
     height: 55%;
@@ -51,6 +51,8 @@ body{
     position: absolute;
     background-color: rgb(255, 255, 255);
     transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
 }
 .tw_et{
     height: 100%;
@@ -58,6 +60,8 @@ body{
     position: absolute;
     background-color: rgb(255, 255, 255);
     transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
 }
 .fr_tn{
     height: 100%;
@@ -65,6 +69,8 @@ body{
     position: absolute;
     background-color: rgb(255, 255, 255);
     transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
 }
 .fv_el{
     height: 100%;
@@ -72,6 +78,8 @@ body{
     position: absolute;
     background-color: rgb(255, 255, 255);
     transform: rotate(150deg);
+    -webkit-transform: rotate(150deg);
+  -moz-transform: rotate(150deg);
 }
 .pnt{
     height: 5px;
@@ -88,7 +96,6 @@ body{
     height: 2px;
     top: 50%;
     left: 50%;
-    transform:rotate(90deg);
     position:absolute;
     transform-origin:0%;
 }
