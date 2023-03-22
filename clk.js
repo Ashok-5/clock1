@@ -18,3 +18,20 @@ function rotation(){
 }
 setInterval(rotation,1000);
 rotation();
+function updateClock() {
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var seconds = now.getSeconds();
+  
+    hours = (hours < 10 ? "0" : "") + hours;
+    minutes = (minutes < 10 ? "0" : "") + minutes;
+    seconds = (seconds < 10 ? "0" : "") + seconds;
+  
+    var time = hours + ":" + minutes + ":" + seconds;
+  
+    document.getElementById("#dg_clk").innerHTML = time;
+  }
+  
+  updateClock();
+  setInterval(updateClock, 1000);
