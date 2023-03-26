@@ -33,6 +33,13 @@ body{
     transform: translate(-50%,-50%);
     z-index: 1;
 }
+.dgt{
+    justify-content:center;
+    display: flex;
+    align-items:center;
+    transform: rotate(180deg);
+    color: aqua;
+}
 .thre_ni{
     height: 1%;
     width: 100%;
@@ -80,6 +87,12 @@ body{
     transform: rotate(150deg);
     -webkit-transform: rotate(150deg);
   -moz-transform: rotate(150deg);
+}
+.dg_clk{
+    background-color: rgb(0, 0, 0);
+    transform: translate(15%);
+    z-index: 1;
+    font-size:x-large;
 }
 .pnt{
     height: 5px;
